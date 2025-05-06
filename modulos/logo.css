@@ -1,0 +1,16 @@
+.log{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.img-logo{
+    width: 6rem;
+    border-radius: 6rem;
+    border: 1px solid black;
+}
+
+.log span{
+    color: black;
+    font-size: 2rem;
+}
