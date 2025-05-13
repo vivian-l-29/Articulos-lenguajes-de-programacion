@@ -1,14 +1,18 @@
 .articulo-1{
-    font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
     align-self: center;
+   
+    text-align: center; 
+    font-size: 1.7rem;
+}
+
+.textos {
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 2px;
 }
 
 .titulos{
-    margin-top: 10px;
-}
-
-.textoss{
     margin-top: 10px;
 }
 
@@ -16,12 +20,7 @@
     margin-top: 20px;
 }
 
-.titulosss{
-    margin-top: 30px;
+.titulos1{
+    margin-top: 20px;
 }
 
-
-.img-art{
-    width: 15rem;
-    margin-top: 30px;
-}

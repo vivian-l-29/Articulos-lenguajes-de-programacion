@@ -1,0 +1,27 @@
+.articulo-2{
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+   
+    text-align: center; 
+    font-size: 1.7rem;
+}
+
+.textos {
+    margin: 0 auto;
+    text-align: center; 
+    margin-top: 2px;
+}
+
+.titulos{
+    margin-top: 10px;
+}
+
+.tituloss{
+    margin-top: 20px;
+}
+
+.titulos1{
+    margin-top: 20px;
+}
+
+

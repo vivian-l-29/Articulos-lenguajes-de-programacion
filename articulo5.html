@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programación</title>
 
-
     <link rel="stylesheet" href="modulos/logo.css">
     <link rel="stylesheet" href="modulos/menu.css">
     <link rel="stylesheet" href="componentes/nav.css">
-    <link rel="stylesheet" href="vistas/articulo1.css">
-     
+    <link rel="stylesheet" href="vistas/articulo5.css">
     <link rel="stylesheet" href="config.css">
 </head>
 <body>
-    
     <main>
         <div class="menu">
             <div class="log">
@@ -27,15 +24,68 @@
                 <a href="articulo3.html">JavaScript <span>😊</span></a>
                 <a href="articulo4.html">SQL <span>😋</span></a>
                 <a href="articulo5.html">Java <span>😸</span></a>
-                <a href="articulo6.html">Python <span>🙂‍↔️</span></a>
+                <a href="articulo6.html">Python <span>🫴️</span></a>
                 <a href="articulo7.html">C <span>😵‍💫</span></a>
                 <a href="articulo8.html">C++ <span>🤯</span></a>
                 <a href="articulo9.html">C# <span>🙊</span></a>
             </nav>
-            <a href="" class="btn-github">Github</a>
+            <a href="https://github.com/vivian-l-29" class="btn-github">Github</a>
         </div>
 
-        <section class="articulo-1"></section>
+        <section class="articulo-5">
+            <section class="textos">
+                <h2 class="titulo1">Introducción a Java: Un Lenguaje de Programación Versátil</h2>
+
+                <h1 class="tituloss">¿Por qué es importante Java?</h1>
+                <span>Java es uno de los lenguajes de programación más populares y utilizados en el mundo del desarrollo de software. Creado en 1995 por Sun Microsystems (hoy parte de Oracle), Java ha evolucionado para convertirse en un pilar fundamental en la creación de aplicaciones móviles, sistemas empresariales, aplicaciones web y más. Su filosofía de "escribe una vez, corre en cualquier lugar" (WORA) lo hace especialmente atractivo, ya que el código Java puede ejecutarse en diversas plataformas sin necesidad de ser modificado. Este lenguaje es ampliamente utilizado en el desarrollo de aplicaciones Android, sistemas backend de alta escalabilidad y soluciones corporativas complejas.</span>
+
+                <h3 class="titulos">La sintaxis y estructura básica de Java</h3>
+                <span>Java es un lenguaje orientado a objetos, lo que significa que organiza los datos y comportamientos en "objetos". Su sintaxis es similar a otros lenguajes de programación como C y C++, lo que lo hace relativamente fácil de aprender para aquellos familiarizados con estos lenguajes. Una estructura básica de un programa Java incluye la declaración de clases y métodos. El punto de entrada principal de un programa Java es el método `main`, que es ejecutado por la JVM (Java Virtual Machine) cuando se inicia el programa. El siguiente código muestra un ejemplo básico:</span>
+
+                <span>public class MiPrograma {</span>
+                <span>    public static void main(String[] args) {</span>
+                <span>        System.out.println("¡Hola, Mundo!");</span>
+                <span>    }</span>
+                <span>}</span>
+
+                <span>En este ejemplo, `public class MiPrograma` declara una clase llamada `MiPrograma`, y el método `main` imprime un mensaje en la consola.</span>
+
+                <h3 class="titulos1">Fundamentos de la programación orientada a objetos</h3>
+                <span>Una de las características más poderosas de Java es su enfoque en la programación orientada a objetos (OOP). En OOP, los datos se organizan en clases y objetos, y los métodos definen el comportamiento de estos objetos. Por ejemplo, una clase puede ser utilizada para representar un "Coche", y los métodos dentro de esa clase pueden incluir acciones como "arrancar" o "frenar".</span>
+
+                <span>Los conceptos clave en OOP incluyen:</span>
+                <span>Clases y objetos: Las clases son plantillas para crear objetos. Los objetos son instancias de clases que contienen tanto datos como comportamientos asociados.</span>
+
+                <span>Herencia: Permite que una clase herede atributos y métodos de otra clase. Esto facilita la reutilización del código y la creación de jerarquías entre clases.</span>
+
+                <span>Polimorfismo: La capacidad de un objeto de tomar muchas formas. Esto generalmente se logra mediante métodos sobrescritos o interfaces.</span>
+
+                <span>Encapsulamiento: La práctica de ocultar los detalles internos de implementación de una clase y exponer solo los métodos necesarios para interactuar con los objetos.</span>
+
+                <span>Abstracción: Se refiere a la creación de clases e interfaces que proporcionan comportamientos generales sin necesidad de exponer los detalles específicos.</span>
+
+                <h3 class="titulos1">Manejo de excepciones en Java</h3>
+                <span>Java proporciona un robusto sistema de manejo de excepciones que permite manejar los errores de manera eficiente. Esto garantiza que el programa no termine abruptamente debido a condiciones inesperadas, lo que resulta en una experiencia más estable para el usuario. Las excepciones en Java se gestionan utilizando bloques `try`, `catch` y `finally`, lo que permite a los desarrolladores capturar y manejar errores de manera controlada y proporcionar retroalimentación apropiada.</span>
+
+                <span>Por ejemplo, el siguiente código muestra cómo manejar una excepción de tipo `ArithmeticException` cuando se intenta dividir por cero:</span>
+
+                <span>try {</span>
+                <span>    int resultado = 10 / 0;</span>
+                <span>} catch (ArithmeticException e) {</span>
+                <span>    System.out.println("Error: No se puede dividir por cero.");</span>
+                <span>} finally {</span>
+                <span>    System.out.println("Este bloque siempre se ejecuta.");</span>
+                <span>}</span>
+
+                <h3 class="titulos1">Bibliotecas y Frameworks en Java</h3>
+                <span>Java cuenta con una amplia gama de bibliotecas y frameworks que facilitan el desarrollo de aplicaciones. Entre los más conocidos se encuentran Spring, un framework ampliamente utilizado para aplicaciones web y backend; Hibernate, que facilita el mapeo objeto-relacional y simplifica la interacción con bases de datos; y JUnit, que se utiliza para escribir pruebas unitarias, asegurando la calidad y fiabilidad del código.</span>
+
+                <h4 class="titulos1">Conclusión</h4>
+                <span>Java sigue siendo uno de los lenguajes más importantes en el desarrollo de software debido a su robustez, portabilidad y amplia adopción en diversas industrias. Su enfoque en la programación orientada a objetos, su extenso ecosistema de herramientas y su capacidad para crear aplicaciones escalables lo convierten en una excelente opción para aquellos interesados en desarrollar aplicaciones móviles, sistemas backend y más. Aprender Java no solo es un paso esencial para los desarrolladores, sino también una puerta de entrada a muchos campos profesionales en la programación.</span>
+            </section>
+        </section>
     </main>
 </body>
 </html>
+
+
