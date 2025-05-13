@@ -5,16 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Programación</title>
 
-
     <link rel="stylesheet" href="modulos/logo.css">
     <link rel="stylesheet" href="modulos/menu.css">
     <link rel="stylesheet" href="componentes/nav.css">
     <link rel="stylesheet" href="vistas/articulo1.css">
-     
     <link rel="stylesheet" href="config.css">
 </head>
 <body>
-    
     <main>
         <div class="menu">
             <div class="log">
@@ -27,33 +24,49 @@
                 <a href="articulo3.html">JavaScript <span>😊</span></a>
                 <a href="articulo4.html">SQL <span>😋</span></a>
                 <a href="articulo5.html">Java <span>😸</span></a>
-                <a href="articulo6.html">Python <span>🙂‍↔️</span></a>
+                <a href="articulo6.html">Python <span>🫴️</span></a>
                 <a href="articulo7.html">C <span>😵‍💫</span></a>
                 <a href="articulo8.html">C++ <span>🤯</span></a>
                 <a href="articulo9.html">C# <span>🙊</span></a>
             </nav>
-            <a href="" class="btn-github">Github</a>
+            <a href="https://github.com/vivian-l-29" class="btn-github">Github</a>
         </div>
 
         <section class="articulo-1">
-            <h1 class="titulos">Introducción al HTML: El Lenguaje de Marcado para la Web</h1>
-            <span class="textoss">El HTML (HyperText Markup Language) es el lenguaje fundamental para la creación de páginas web. Junto con el CSS (Cascading Style Sheets) y JavaScript, HTML constituye el trío básico de tecnologías que componen la estructura, el diseño y la interactividad de un sitio web. A pesar de que a menudo se ve como una tecnología sencilla, HTML juega un papel crucial en la creación y organización de contenidos en la web.
+            <section class="textos">
+                <h2 class="titulo1">HTML: El Corazón de la Web</h2>
 
-                Este artículo tiene como objetivo proporcionar una visión general de HTML, su estructura básica, sus etiquetas principales y cómo se utiliza para crear sitios web efectivos.</span>
-        
-                <h2 class="tituloss">¿Qué es HTML?</h2>
-                <span>HTML es un lenguaje de marcado utilizado para estructurar contenido en la web. Su principal función es describir la estructura de una página web utilizando una serie de etiquetas que indican cómo se debe organizar el contenido en la misma. Estas etiquetas pueden definir títulos, párrafos, listas, imágenes, enlaces y muchos otros elementos.
+                <h1 class="tituloss">¿Qué es HTML?</h1>
+                <span>HTML, o Lenguaje de Marcado de Hipertexto (HyperText Markup Language), es el estándar que se utiliza para crear y estructurar el contenido en la web. Es la base de cualquier página web y permite organizar el texto, imágenes, enlaces, formularios, videos y otros elementos. HTML proporciona la estructura básica de la página y se complementa con otros lenguajes como CSS y JavaScript para darle estilo y funcionalidad.</span>
 
-En términos sencillos, HTML actúa como el "esqueleto" de una página web, mientras que el CSS se encarga de su apariencia y JavaScript de la interactividad.</span>
-                
-                <h3 class="titulosss">Estructura Básica de un Documento HTML</h3>
-                <span>Un documento HTML típico tiene una estructura muy simple que contiene varias secciones clave. </span>
-            
-                <section class="imagen">
-                <img class="img-art" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt=""></span>
-            
-                </section>
+                <h3 class="titulos">Estructura de un documento HTML</h3>
+                <span>Un archivo HTML está compuesto por una serie de etiquetas que indican el tipo de contenido que se está incluyendo. Las etiquetas HTML se agrupan en elementos, que son responsables de describir la estructura de la página. Los elementos principales de un documento HTML incluyen el `<html>`, `<head>`, y `<body>`. Dentro del cuerpo del documento (`<body>`) se encuentra el contenido visual que verán los usuarios, mientras que en el `<head>` se colocan metadatos, enlaces a hojas de estilo y otras configuraciones del navegador.</span>
+
+                <h3 class="titulos1">Etiquetas más comunes</h3>
+                <span>Existen muchas etiquetas en HTML, pero algunas de las más utilizadas son:
+                    <ul>
+                        <li><strong>&lt;h1&gt; a &lt;h6&gt;</strong>: Etiquetas para definir los títulos de una página, donde &lt;h1&gt; representa el título más importante.</li>
+                        <li><strong>&lt;p&gt;</strong>: Define un párrafo.</li>
+                        <li><strong>&lt;a&gt;</strong>: Utilizada para crear enlaces.</li>
+                        <li><strong>&lt;img&gt;</strong>: Para incluir imágenes en la página.</li>
+                        <li><strong>&lt;ul&gt; y &lt;ol&gt;</strong>: Para crear listas no ordenadas y ordenadas, respectivamente.</li>
+                        <li><strong>&lt;div&gt;</strong>: Contenedor genérico utilizado para agrupar otros elementos.</li>
+                    </ul>
+                </span>
+
+                <h3 class="titulos1">HTML y su Evolución</h3>
+                <span>Desde su creación en 1991 por Tim Berners-Lee, HTML ha pasado por varias versiones. La versión más reciente, HTML5, trae consigo muchas mejoras como la integración de nuevos tipos de entrada en formularios, multimedia (como audio y video), y capacidades para aplicaciones web más interactivas. HTML5 también se enfoca en la semántica del código, permitiendo que los desarrolladores estructuren su contenido de forma más significativa, lo que mejora la accesibilidad y el SEO (optimización para motores de búsqueda).</span>
+
+                <h3 class="titulos1">El Rol de HTML en el Desarrollo Web</h3>
+                <span>HTML no solo es importante porque define la estructura de las páginas, sino porque también establece la base sobre la que se construyen todos los sitios web. Es la forma en que los desarrolladores transmiten el contenido y las interacciones a los navegadores web. Sin HTML, el diseño de la web sería prácticamente imposible, ya que no tendríamos una forma organizada de presentar los datos.</span>
+
+                <h3 class="titulos1">HTML y Accesibilidad</h3>
+                <span>Además de ser fundamental para la estructura de la web, HTML también juega un papel clave en la accesibilidad de las páginas. Utilizando etiquetas semánticas como, entre otras, los desarrolladores pueden hacer que sus sitios sean más fáciles de navegar para las personas con discapacidades. Herramientas de asistencia como los lectores de pantalla pueden entender mejor el contenido, proporcionando una experiencia de usuario más inclusiva.</span>
+
+                <h4 class="titulos1">Conclusión</h4>
+                <span>En resumen, HTML es el lenguaje esencial para cualquier desarrollo web. Aunque por sí solo no permite crear sitios visualmente impresionantes o interactivos, es la piedra angular sobre la que se construye todo el contenido. Comprender HTML es el primer paso para cualquiera que desee iniciarse en el desarrollo web, y dominarlo abre la puerta al uso de tecnologías complementarias como CSS y JavaScript para crear experiencias completas y dinámicas en la web.</span>
             </section>
+        </section>
     </main>
 </body>
 </html>
